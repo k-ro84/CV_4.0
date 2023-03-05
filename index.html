@@ -115,8 +115,8 @@
             <i class="fab fa-airbnb"></i>
         </div>
         <p id="pres">portfolio web 2023</p>
-        <button type="button" onclick="document.getElementById('pres').style.fontSize='60px'">dame clic</button>
-        <button type="button" onclick="document.getElementById('pres').style.display='none'">clic para irme</button>
+        <button type="button" onclick="document.getElementById('pres').style.fontSize='60px'" class="ver">dame clic</button>
+        <button type="button" onclick="document.getElementById('pres').style.display='none'"class="ver" >clic para irme</button>
 
     </div>
 
@@ -243,7 +243,25 @@
 
         </div>
 
-       
+        <section class="contact">
+            <div class="u-wrapper">
+              <div class="contact-content">
+        
+                <form id="form" action="" class="form">
+                  <h3 class="tag"><span>CONTACT ME</span></h3>
+                  <label for="name">Nombre Completo <span>*</span></label>
+                  <input name="name" required type="text" id="name" placeholder="name /lastname">
+                  <label for="email">Correo electrónico <span>*</span></label>
+                  <input name="email" type="text" id="email" required placeholder="xxx@gmail.com">
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                  <button type="submit" class="btn bg-secondary">enviar mensaje</button>
+                </form>
+                <a href="carolinaolguin1984@yahoo.com.ar" id="sending"></a>
+                <script src="function.js/formvalid.js"></script>
+              </div>
+            </div>
+          </section>
 
         <div class="container" id="hr">
             <button id="myBtn">Hora actual</button>

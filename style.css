@@ -5,6 +5,7 @@ body{
 
 
 h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
  /**   animation-duration: 3s;
     animation-name: slidein;
@@ -64,7 +65,6 @@ h2{
     height:30px;
     padding: 50px;
 }
-
 #doc{
     font-family: 'Gloock', serif;
     font-size:large;
@@ -74,11 +74,16 @@ h2{
     color: black;
 }
 
+
 #pres{
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.ver{
+    background-color: #f02daf;
+    margin:0 250px 0 250px;
+    border-radius: 10rem;
+}
 
 
 .container1{
@@ -89,7 +94,6 @@ h2{
 .progress{
        height: 27px;
 }
-
 .skills{
     margin-top: 15px;
     font-size: 15px;
@@ -169,12 +173,28 @@ h2{
 
 
 #card1{
-    align-content: center;
-border-color: black;
-margin-right: 400px;
-margin-left: 400px;
+  align-content: center;
+  border-color: black;
+  margin-right: 400px;
+  margin-left: 400px;
 }
 
+
+.form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+#sending {
+    opacity: 0;
+  }
 
 
 
@@ -188,13 +208,13 @@ margin-left: 400px;
     background-color: darkcyan;
     border-radius: 20px;
 }
-
 .print{
 background-color: darkslategray;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 border-radius: 20px;
 height: 35px;
 }
+
 
 footer {
     position:absolute;
@@ -208,9 +228,8 @@ footer {
   }
   
 
-
-
-
+/** index nummero 2:
+encuesta.html*/
   #switchDay{
     text-align: center;
     font-size: 3rem;
