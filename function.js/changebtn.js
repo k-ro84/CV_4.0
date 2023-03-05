@@ -1,5 +1,4 @@
 
-
 function myFunction() {
     let text;
     let person = prompt(" Please enter your name or nickname: ", " it´s right here ");
@@ -11,3 +10,12 @@ function myFunction() {
     }
     document.getElementById("saludos").innerHTML = text;
   }
+
+  function myFunction2() {
+    window.history.back();}
+
+  /** 
+   * en caso de querer retroceder dos paginas o tres
+   *  function myFunction() {
+      window.history.go(-2);
+    } */

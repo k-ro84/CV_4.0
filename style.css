@@ -47,6 +47,11 @@ h2{
     text-align: center;
 }
 
+#volver{
+    background-color: blue;
+    align-content: center;
+}
+
 
 #botoncito,#botoncito2,#botoncito3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -64,27 +69,33 @@ h2{
     font-family: 'Gloock', serif;
     font-size:large;
     color: darkred;
-   
 }
-
-
 #desktop{
     color: black;
 }
+
+#pres{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 
 .container1{
     margin-top: 30px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 20px; 
+}
+.progress{
+       height: 27px;
 }
 
-#formFileLg{
-    font-size: medium;
-    border-color: black;
-    padding-left: 3cm;
-    padding-right: 3cm;
+.skills{
+    margin-top: 15px;
+    font-size: 15px;
 }
+
+
 
 
 @media (min-width: 500px) {
@@ -138,24 +149,17 @@ h2{
         max-width: 100%;
         margin: 0; 
       }
-    }
-}
-
-
-.skills{
-    margin-top: 15px;
+    } 
 }
 
 
 .exper{
     margin-top: 30px;
-
 }
 #exp,#exp2,#exp3{
   text-align: center,start;
   color: rgb(133, 39, 86);
 }
-
 .proyectos{
     border-radius: 50em;
     height: 200px;
@@ -164,15 +168,11 @@ h2{
 }
 
 
-
-#ademas{
-    margin-right:20rem;
-}
-#comments{
-    align-self: center;
-    text-decoration: solid;
-    border-color: darkslategray;
-
+#card1{
+    align-content: center;
+border-color: black;
+margin-right: 400px;
+margin-left: 400px;
 }
 
 
@@ -186,6 +186,14 @@ h2{
     color: rgb(145, 10, 5);
     text-align: justify;
     background-color: darkcyan;
+    border-radius: 20px;
+}
+
+.print{
+background-color: darkslategray;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 20px;
+height: 35px;
 }
 
 footer {
@@ -198,3 +206,4 @@ footer {
     left:0;
     width:100%;
   }
+  

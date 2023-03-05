@@ -15,7 +15,9 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <title>CV 4.0</title>
+
 </head>
 
 <body>
@@ -23,12 +25,12 @@
         <nav class="navbar navbar-dark bg-dark position-relative">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">BIENVENIDXS</a>
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            
+
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
@@ -55,14 +57,17 @@
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">ultima prueba</a></li>
-                                    
+                                    <li><a class="dropdown-item" href="encuesta.html">pequeño extra</a></li>
+
                                 </ul>
                                 <button onclick="myFunction()" class="hi">click me !!!!</button>
-                                     <a id="saludos"></a>
-                                   <script src="function.js/changebtn.js"></script>
+                                <a id="saludos"></a>
+                                <script src="function.js/changebtn.js"></script>
                             </li>
                         </ul>
+                        <button onclick="myFunction2()" id="volver">Go Back</button>
+                        <!--se encuentra tambien en js function.js/changebtn.js-->
+                        <script></script>
                     </div>
                 </div>
             </div>
@@ -108,11 +113,12 @@
         </div>
         <div class="card-footer text-muted">
             <i class="fab fa-airbnb"></i>
-
         </div>
+        <p id="pres">portfolio web 2023</p>
+        <button type="button" onclick="document.getElementById('pres').style.fontSize='60px'">dame clic</button>
+        <button type="button" onclick="document.getElementById('pres').style.display='none'">clic para irme</button>
 
     </div>
-
 
     <div class="container1">
         <h2 class="">Habilidades Soft & Hard </h2>
@@ -160,22 +166,24 @@
                     <p class="skills">team work</p>
                 </div>
             </div>
-            <div class="progress" role="progressbar" aria-label="black example" aria-valuenow="80"
-                aria-valuemin="0" aria-valuemax="100">
+            <div class="progress" role="progressbar" aria-label="black example" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100">
                 <div class="progress-bar bg-black" style="width: 80%">
                     <p class="skills">sociability</p>
                 </div>
             </div>
-            <div class="container-fluid">
-                <label for="formFileLg" class="form-label">
-                    <p id="doc">queres agregar un documento??
-                        <span class="material-symbols-outlined" id="desktop">install_desktop
-                        </span>
-                    </p>
-                </label>
-                <input class="form-control form-control-lg" id="formFileLg" type="file">
-            </div>
+            <form method="post" action="https://www.example.com" enctype="multipart/form-data">
+                <div class="container-fluid">
+                    <label for="formFileLg" class="form1">
+                        <p id="doc">queres agregar un documento??
+                            <span class="material-symbols-outlined" id="desktop">install_desktop
+                            </span>
+                        </p>
 
+                    </label>
+                    <input class="form-control form-control-lg" id="formFileLg" type="file">
+                </div>
+            </form>
         </div>
 
         <div class="container-fluid">
@@ -187,19 +195,18 @@
                 <script src="function.js/colorbtn.js"></script>
 
                 <div class="media">
+
                     <img src="img/pexels-anna-shvets-4588036.jpg" alt="proyectos1" class="proyectos">
-                    <p id="exp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                        vehicula vitae ligula sit amet maximus.
-                        Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices
-                        sodales tellus et aliquam.
-                        Pellentesque porta sit amet nulla vitae luctus. Praesent quis risus id
-                        dolor venenatis condimentum.
-                    </p>
+                    <p id="exp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis vehicula vitae
+                        ligula sit amet maximus.Nunc auctor neque ipsum, ac porttitor elit lobortis ac.
+                        Vivamus ultricessodales tellus et aliquam.Pellentesque porta sit amet nulla vitae luctus.
+                        Praesent quis risus id dolor venenatis condimentum.</p>
+                    <!-- 
+                    <p id="exp">1_lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+                   <script src="function.js/btnExp.js"></script>-->
                 </div>
             </div>
-            <div class="footer">
-                An optional footer goes here1.
-            </div>
+
             <div class="content">
                 <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="botoncito2">
                 </div>
@@ -215,9 +222,7 @@
                     </p>
                 </div>
             </div>
-            <div class="footer">
-                An optional footer goes here2.
-            </div>
+
 
             <div class="content">
                 <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="botoncito3">
@@ -235,49 +240,27 @@
                     </p>
                 </div>
             </div>
-            <div class="footer">
-                An optional footer goes here3.
-            </div>
 
         </div>
-        <div class="container" id="ademas">
-            <div class="row">
-                <div class="card mb-7 bg-black" style="max-width: 40rem ">
-                    <div class="card-body" id="comments">
-                        <form class="row g-3">
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                                    style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Comments</label>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary" onclick="myForm()" class="formfinal" id="form">Submit form</button>
-                                <script src="function.js/formvalid.js"></script>
-                            </div>
 
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
        
-    </div>
 
-    <div class="container" id="hr">
-        <button id="myBtn">Hora actual</button>
-        <h4 id="hora" alt="uso de eventlistener"></h4>
-        <script src="function.js/hora.js"> </script>
-    </div>
-    <footer>
-        2023 @production CV Argentina Programa 4.0
-    </footer>
+        <div class="container" id="hr">
+            <button id="myBtn">Hora actual</button>
+            <h4 id="hora" alt="uso de eventlistener"></h4>
+            <script src="function.js/hora.js"> </script>
+            <button onclick="window.print()" class="print">Print this page</button>
+        </div>
+        <footer>
+            2023 @production CV Argentina Programa 4.0
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"></script>
 
 </body>
 
